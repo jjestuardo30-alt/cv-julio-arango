@@ -76,3 +76,20 @@ h2::after {
     background: var(--color-accent);
     margin-top: 5px;
 }
+
+/*listas*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/*animacion en HOVER*/
+li:hover {
+    transform: translate(5px);
+    color: var(--color-accent);
+}
