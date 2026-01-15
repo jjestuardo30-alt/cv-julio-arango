@@ -93,3 +93,15 @@ li:hover {
     transform: translate(5px);
     color: var(--color-accent);
 }
+
+/*RESPONSIVE (mobile)*/
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+    }
+    section ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 20px;
+    }
+}
