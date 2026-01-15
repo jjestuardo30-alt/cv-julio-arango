@@ -105,3 +105,24 @@ li:hover {
         gap: 10px 20px;
     }
 }
+
+/*Modo de Impresion*/
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+
+    main {
+        background: white;
+        border: none;
+        box-shadow: none;
+
+    }
+    a::after {
+        content: "("  attr(href) ")";
+    }
+}
+
+
+
