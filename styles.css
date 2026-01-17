@@ -135,6 +135,13 @@ li:hover {
     color: var(--color-accent);
 }
 
+/*Tarjetas*/
+.info-card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
 /*RESPONSIVE (mobile)*/
 @media (min-width: 768px) {
     main {
