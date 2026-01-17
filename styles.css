@@ -51,6 +51,12 @@ body {
     transition: 0.2s ease;
 }
 
+.sidebar a:hover {
+    color: var(--color-accent);
+    transform: translateX(5px);
+}
+
+
 
 
 
