@@ -154,11 +154,18 @@ li:hover {
 }
 
     /* Mostrar solo tarjeta seleccionada*/
-    .info-card:target {
+.info-card:target {
         display: block;
         opacity: 1;
         transform: translateY(0);
     }
+
+    /*tarjeta inicial visible*/
+#sobre-mi {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
 
