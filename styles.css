@@ -147,13 +147,19 @@ li:hover {
     /* Para navegacion con target*/
 
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(10);
     transition: opacity 0.3s ease, transform 0.3s ease;
     display: none;
     
 }
 
-/* Para navegacion con target*/
+    /* Mostrar solo tarjeta seleccionada*/
+    .info-card:target {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 
 
 
