@@ -143,8 +143,18 @@ li:hover {
     padding: 20px;
     margin-bottom: 30px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+    /* Para navegacion con target*/
+
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: none;
     
 }
+
+/* Para navegacion con target*/
+
 
 
 /*RESPONSIVE (mobile)*/
