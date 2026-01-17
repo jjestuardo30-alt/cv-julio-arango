@@ -143,6 +143,8 @@ li:hover {
 
 
 /*RESPONSIVE (mobile)*/
+
+/*tablet y escritorio*/
 @media (min-width: 768px) {
 
     /*sidebar fijo*/
@@ -165,6 +167,13 @@ li:hover {
         padding: 80 px 20px 60px;
         text-align: left;
     }
+
+    /*foto esquina*/
+    .foto-perfil {
+        top: 20px;
+        right: 20px;
+    }
+    
     section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
