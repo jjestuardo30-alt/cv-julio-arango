@@ -36,6 +36,11 @@ body {
     margin: 0;
 }
 
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+
 
 
 /*Contenedor Principal*/
