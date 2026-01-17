@@ -144,6 +144,16 @@ li:hover {
 
 /*RESPONSIVE (mobile)*/
 @media (min-width: 768px) {
+
+    /*sidebar fijo*/
+    .sidebar {
+        width: 220px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
     main {
         padding: 40px;
     }
