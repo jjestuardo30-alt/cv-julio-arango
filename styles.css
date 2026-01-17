@@ -135,10 +135,15 @@ li:hover {
     color: var(--color-accent);
 }
 
-/*Tarjetas*/
+/*Tarjetas VISUALES*/
 .info-card {
-    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    
 }
 
 
