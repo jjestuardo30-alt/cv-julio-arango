@@ -173,11 +173,17 @@ li:hover {
         top: 20px;
         right: 20px;
     }
-    
+
+    /*Listas en 2 columnas*/
+
     section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px 20px;
+    }
+
+    .info-card {
+        padding: 20px 10px;
     }
 }
 
