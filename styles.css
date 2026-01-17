@@ -158,6 +158,13 @@ li:hover {
         margin-left: 240px;
         padding: 40px;
     }
+
+    /*Header alineado*/
+    header {
+        margin-left: 240px;
+        padding: 80 px 20px 60px;
+        text-align: left;
+    }
     section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
