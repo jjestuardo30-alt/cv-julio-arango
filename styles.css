@@ -17,6 +17,21 @@ body {
     line-height: 1.6;
 }
 
+/*_________________________________
+    SIDEBAR LATERAL
+    _____________________________*/
+
+.sidebar {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    border-right: 1px solid var(--color-border);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+
+
+
 /*Contenedor Principal*/
 main {
     max-width: 900px;
