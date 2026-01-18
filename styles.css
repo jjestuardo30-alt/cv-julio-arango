@@ -188,6 +188,11 @@ TIMELINE
     opacity: 0.4;
 }
 
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
 
 
 /*RESPONSIVE (mobile)*/
