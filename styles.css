@@ -204,6 +204,17 @@ TIMELINE
     border: 2px solid var(--color-border);
 }
 
+.timeline-content {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
 
 
 /*RESPONSIVE (mobile)*/
