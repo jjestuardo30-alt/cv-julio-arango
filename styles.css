@@ -69,6 +69,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     color: var(--color-accent);
+   
 
 }
 
@@ -246,6 +247,11 @@ TIMELINE
         padding: 80 px 20px 60px;
         text-align: left;
     }
+
+     header h1 {
+        padding-left: 150px;
+    }
+
 
     /*foto esquina*/
     .foto-perfil {
