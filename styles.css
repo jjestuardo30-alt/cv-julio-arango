@@ -177,6 +177,17 @@ TIMELINE
     padding-left: 30px;
 }
 
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 2px;
+    height: 2px;
+    background: var(--color-border);
+    opacity: 0.4;
+}
+
 
 
 /*RESPONSIVE (mobile)*/
