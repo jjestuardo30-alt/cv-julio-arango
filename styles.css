@@ -167,6 +167,15 @@ li:hover {
     color: var(--color-accent);
 }
 
+/*===================
+TIMELINE
+=====================*/
+
+.timeline {
+    position: relative;
+    margin: 40px 0;
+    padding-left: 30px;
+}
 
 
 
