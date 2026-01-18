@@ -193,6 +193,17 @@ TIMELINE
     margin-bottom: 40px;
 }
 
+.timeline-dot {
+    position:absolute;
+    left: -1px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background: var(--color-accent);
+    border-radius: 50%;
+    border: 2px solid var(--color-border);
+}
+
 
 
 /*RESPONSIVE (mobile)*/
