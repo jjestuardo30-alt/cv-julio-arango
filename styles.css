@@ -1,4 +1,6 @@
-/*Variables de Color*/
+/*========================
+VARIABLES COLOR
+========================*/
 :root {
     --color-bg: #0d0d0d;
     --color-text: #f2f2f2;
@@ -7,7 +9,9 @@
 
 }
 
-/*Estilo general de pagina*/
+/*========================
+ESTILO GENERAL DE PAGINA
+==========================*/
 body {
     margin: 0;
     padding: 0;
@@ -19,14 +23,16 @@ body {
     line-height: 1.6;
 }
 
-/*Animacion suave*/
+/*Animacion fondo suave*/
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%;}
     100% { background-position: 0% 50%;}
 }
 
-/* Enlaces globales */
+/*=========================
+ ENLACES GLOBALES Y ACCESIBILIDAD
+ ============================ */
 a {
     color: var(--color-accent);
     text-decoration: none;
@@ -44,9 +50,9 @@ a:focus {
 }
 
 
-/*_________________________________
-    SIDEBAR LATERAL
-    _____________________________*/
+/*==============================
+    SIDEBAR LATERAL / MOVIL
+    ===========================*/
 
 .sidebar {
     background: rgba(0, 0, 0, 0.6);
@@ -85,7 +91,9 @@ a:focus {
 
 
 
-/*Encabezad*/
+/*========================
+HEADER (MOVIL)
+=========================*/
 
 header {
     position: relative;
@@ -159,7 +167,7 @@ header p {
     fill: #000;
 }
 
-/* movil*/
+/* MOVIL*/
 @media (max-width: 767px) {
     .acciones-header {
         display: none;
@@ -179,7 +187,9 @@ header p {
 
 
 
-/*Contenedor Principal*/
+/*=================
+MAIN MOVIL
+====================*/
 main {
     max-width: 900px;
     margin: auto;
@@ -192,6 +202,9 @@ main {
 
 }
 
+/*=======================
+   FOOTER
+   ========================*/
 footer {
     text-align: center;
     padding: 20px;
@@ -204,7 +217,9 @@ footer {
 }
 
 
-/*Tarjetas VISUALES*/
+/*========================
+Tarjetas VISUALES
+=========================*/
 .info-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--color-border);
@@ -236,7 +251,9 @@ footer {
     transform: translateY(0);
 }
 
-/*Secciones*/
+/*=========================
+SECCIONES
+===========================*/
 section {
     margin-bottom: 40px
 }
@@ -321,9 +338,10 @@ TIMELINE
 
 
 
-/*RESPONSIVE (mobile)*/
+/*============================
+RESPONSIVE (ESCRITORIO)
+==============================*/
 
-/*tablet y escritorio*/
 @media (min-width: 768px) {
 
     /*sidebar fijo*/
@@ -371,7 +389,9 @@ TIMELINE
     }
 }
 
-/*ESCRITORIO GRANDE*/
+/*=========================
+ESCRITORIO GRANDE
+===========================*/
 @media (min-width: 1200px) {
     main{
         padding: 60px;
@@ -390,7 +410,9 @@ TIMELINE
     }
 }
 
-/*Modo de Impresion*/
+/*=========================
+MODO IMPRESION
+========================*/
 @media print {
 
     /* Fondo blanco y texto negro para impresión */
