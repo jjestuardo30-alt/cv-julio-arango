@@ -122,6 +122,15 @@ header p {
     transition: 0.3s ease;
 }
 
+.btn-accion:hover {
+    background: var(--color-accent);
+    transform: translateY(-3px);
+}
+
+.btn-accion:hover svg {
+    fill: #000;
+}
+
 /*Contenedor Principal*/
 main {
     max-width: 900px;
