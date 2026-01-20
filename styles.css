@@ -101,6 +101,20 @@ header p {
     z-index: 10;
 }
 
+.btn-accion {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 /*Contenedor Principal*/
 main {
     max-width: 900px;
