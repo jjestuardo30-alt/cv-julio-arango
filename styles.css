@@ -26,6 +26,24 @@ body {
     100% { background-position: 0% 50%;}
 }
 
+/* Enlaces globales */
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Accesibilidad: focus visible */
+a:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+
 /*_________________________________
     SIDEBAR LATERAL
     _____________________________*/
