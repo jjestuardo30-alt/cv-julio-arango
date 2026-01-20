@@ -131,6 +131,13 @@ header p {
     fill: #000;
 }
 
+/*Ocultar en el movil*/
+@media (max-width: 767px) {
+    .acciones-header {
+        display: none;
+    }
+}
+
 /*Contenedor Principal*/
 main {
     max-width: 900px;
