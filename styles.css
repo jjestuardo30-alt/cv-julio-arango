@@ -115,6 +115,13 @@ header p {
     transition: 0.3s ease;
 }
 
+.btn-accion svg {
+    width: 22px;
+    height: 22px;
+    fill: var(--color-accent);
+    transition: 0.3s ease;
+}
+
 /*Contenedor Principal*/
 main {
     max-width: 900px;
