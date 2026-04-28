@@ -11,7 +11,7 @@ Incluye diseño responsive, animaciones CSS, navegación mediante `:target`, mod
 
 El CV está publicado en el siguiente enlace:
 
-🔗 **https://TU-URL-VERCEL.vercel.app**
+🔗 **https://cv-julio-arango.vercel.app/**
 
 ---
 
