@@ -1,5 +1,3 @@
-<img width="1898" height="909" alt="Captura de pantalla 2026-04-28 115755" src="https://github.com/user-attachments/assets/16ec2b4a-de01-483b-bc8f-7a3f5aad6754" />
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hL85mACD)
 
 # CV Web — Julio Arango
 
